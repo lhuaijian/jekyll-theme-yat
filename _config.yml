@@ -4,14 +4,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: Huaijian's blog
+email: lhuaijian@gmail.com
+author: Huaijian
 copyright: Copyright © 1970-2010
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Keep fire!
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,40 +30,40 @@ yat:
 # google_analytics: [Tracking ID]
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: True
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "en"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     text: English
-#
-#   - lang: fr
-#     img: https://www.countryflags.io/fr/flat/64.png
-#     text: Franch
-#
-#   - lang: zh-CN
-#     img: https://www.countryflags.io/cn/flat/64.png
-#     text: Chinese(Simple)
-#
-#   - lang: zh-TW
-#     img: https://www.countryflags.io/tw/flat/64.png
-#     text: Chinese(Traditional)
-#
-#   - lang: ja
-#     img: https://www.countryflags.io/jp/flat/64.png
-#     text: Japan
-#
-#   - lang: ko
-#     img: https://www.countryflags.io/kr/flat/64.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://www.countryflags.io/ru/flat/64.png
-#     text: Russia
+translate_langs:
+  - lang: en
+    text: English
+
+  - lang: fr
+    img: https://www.countryflags.io/fr/flat/64.png
+    text: Franch
+
+  - lang: zh-CN
+    img: https://www.countryflags.io/cn/flat/64.png
+    text: Chinese(Simple)
+
+  - lang: zh-TW
+    img: https://www.countryflags.io/tw/flat/64.png
+    text: Chinese(Traditional)
+
+  - lang: ja
+    img: https://www.countryflags.io/jp/flat/64.png
+    text: Japan
+
+  - lang: ko
+    img: https://www.countryflags.io/kr/flat/64.png
+    text: Korean
+
+  - lang: ru
+    img: https://www.countryflags.io/ru/flat/64.png
+    text: Russia
 
 # You can choose a theme color
 # Default theme colors as below:
